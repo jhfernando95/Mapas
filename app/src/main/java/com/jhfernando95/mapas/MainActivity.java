@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
 
         Button btnSatelite = (Button) findViewById(R.id.id_btn_satelite);
-        btnNormal.setOnClickListener(new View.OnClickListener() {
+        btnSatelite.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 m_map.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         });
 
         Button btnHibrido = (Button) findViewById(R.id.id_btn_hibrido);
-        btnNormal.setOnClickListener(new View.OnClickListener() {
+        btnHibrido.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 m_map.setMapType(GoogleMap.MAP_TYPE_HYBRID);
